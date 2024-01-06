@@ -4,7 +4,6 @@ import Link from "next/link";
 import React, { useState } from "react";
 import axios from "axios";
 import styles from "../../../components/login/login.module.css";
-s
 const LoginPage = () => {
   const router = useRouter();
   const [formData, setFormData] = useState({ email: "", password: "" });

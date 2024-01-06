@@ -23,7 +23,6 @@ export async function POST(request) {
     });
 
     const res = await user.save();
-    console.log(res);
     return NextResponse.json(
       {
         message: "User data added successfully",
